@@ -2,7 +2,7 @@
 #include <algorithm>
 
 int main() {
-    int arr[] = {5, 2, 8, 1, 9, 3};
+    int arr[] = {500, 200, 8, 10, 9, 30};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     std::sort(arr, arr + n, std::greater<int>());
